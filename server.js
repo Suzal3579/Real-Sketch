@@ -9,5 +9,8 @@ var socket = require("socket.io");
 var ioTrack = socket(server);
 
 ioTrack.sockets.on("connection", (socket) => {
-    console.log(socket);
+    console.log("We have a new connection :=> " + socket.id);
+    socket.on("Mouse", (messageData) => {
+        socket.broadcast.emit("Mouse", messageData);
+    });
 });
