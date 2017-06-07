@@ -1,0 +1,22 @@
+{
+  "name": "real-sketch",
+  "version": "1.0.0",
+  "description": "Node and p5",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suzal3579/Real-Sketch.git"
+  },
+  "author": "Pramesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suzal3579/Real-Sketch/issues"
+  },
+  "homepage": "https://github.com/Suzal3579/Real-Sketch#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
